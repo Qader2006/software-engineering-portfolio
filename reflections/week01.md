@@ -65,3 +65,18 @@ If the warehouse staff had been involved from the beginning, problems such as th
 Having proper written requirements would also have made it clearer what the system was supposed to do.
 The first mistake had a knock on effect on the rest of the project and caused many of the problems that appeared later on.
 
+
+
+**Task 3**
+## Researching a Software Failure
+Knight Capital Software Failure - 2012
+In August 2012, Knight Capital, a financial trading company suffered a major software failure after updating its trading system. New software was installed on seven of the company's eight servers, but one server was accidentally left running older code. When the stock market opened, this old code was triggered and the system started sending millions of incorrect stock orders.
+In about 45 minutes, the system sent over 4 million orders and traded almost 400 million shares. Knight Capital lost more than $460 million as a result. The main problems were poor software deployment and testing. There was no proper checking to make sure all the servers had been updated correctly. The company also did not have strong enough safety controls to stop the system when it began making unusual trades.
+https://www.henricodolfing.ch/en/case-study-4-the-440-million-software-error-at-knight-capital/
+
+
+**Task 4**
+## Is There Still a Software Crisis?
+The 1968 NATO Software Engineering Conference was organised by the NATO Science Committee and was held in Garmish, Germany. More than 50 people from 11 different countries attended. One of the problems they discussed was how difficult it was for large software projects to meet deadlines and requirements.
+I think a version of the software crisis still exists today. Software and development methods have improved massively since the 1960s, but projects can still fail because of poor testing, bad planning and human mistakes. This Knight Capital failure from 2012 is a pretty good example. One server was not properly updated, which caused millions of incorrect stock orders and a loss of over $460 million. Better testing and checks during deployment could have prevented this. This shows that even with modern technology, some of the same software engineering problems still exist.
+
