@@ -1,2 +1,57 @@
+Task 1:
+Brief A - Aegis Flight-Control Software Update
 
-**
+Chosen model:   Waterfall
+
+Justification:
+I would use the waterfall model because the requirements are already clearly defined and are unlikely to change. The software is safety-critical, so it needs extensive testing and documentation at every stage. Waterfall provides a structured process where each stage is completed and documented before moving onto the next. This also suits aviation certification requirements because everything needs to be traceable from the original requirements through to testing.
+
+One Risk:
+If a problem  or requirement change is discovered later in development, it can be difficult and expensive to go back and change earlier work.
+
+
+
+
+
+Brief B - Riverside Bakery Marketing Website
+
+Chosen model:  RAD (Rapid Application Development)
+
+Justification:
+I would use RAD because the bakery owner is not completely sure what she wants the website to look like until she sees it. RAD allows working versions to be created quickly so the owner can see them and give feedback. Changes to things like colours, wording and layout can be made quickly. This also suits the short three week deadline and the relatively simple website.
+
+One Risk:
+THe owner might keep requesting changes after seeing each version, which could make it difficult to finish the website within the three week deadline.
+
+
+
+
+
+Brief C - CampusCircle Community APp
+
+Chosen model: Incremental
+
+Justification:
+I would use the incremental model because the developers already have a rough idea of the main features, but they expect them to change after the students start using the app. They can release a basic version first and then add or imrpove features based on feedback. This also helps them get a usable app released quickly before the next academic term and before their competitor launches.
+
+One Risk:
+Making lots of changes and adding features over time could make the app harder to manage and could cause problems between older and newer parts of the system.
+
+
+
+
+
+
+Task 3:
+Project: AI Tutor Bot
+
+Purpose: Helps students study by explaining topics, generating practise questions, marking answers and giving personalised feedback.
+
+For my hypothetical project, I would develop an AI Tutor Bot designed to help students with studying. The bot would be able to explain topics, generate practise questions and give feedback on the students answers. I would use the incremental process model for this project because I could start by developing the basic features of the bot and then add more features over time.
+
+
+
+
+
+
+
