@@ -1,0 +1,89 @@
+Task 1:
+
+Step 2: Map out, step by step, what re-work is triggered in a waterfall process (docs, sign-offs, re-testing):
+
+1. Requirements need to be updated: The new multiple restaurant ordering feature wasn't originally in the requirements so it needs to be added.
+2. Requirements need to be signed off again: Since the original requirements were signed off but now changed, these new requirements would need approval again.
+3. Design needs to be updated: The system design would have to change to account for this new feature.
+4. Already completed work needs to be changed: The order data model, payment splitting system, kitchen notification system, and some UI screens would need to be changed/updated.
+5. All these new changes need testing again: Due to all these new changes everywhere, the entire system would need retesting to ensure the new features haven't caused problems elsewhere.
+
+
+
+Step 3: 2 week incremental process:
+
+1. The new feature would be added to an upcoming increment rather than backtracking through the whole project.
+2. The requirements for the next increment would be updated to include ordering from multiple restaurants.
+3. The affected parts would be changed/updated such as the order system, payment splitting, kitchen notifications, and the UI.
+4. The changes would be tested during the increment before that version is finished/delivered.
+
+The 2 week incremental would be far less detremental as the changes can be worked into the cycle instead of disrupting a large plan that was decided months earlier.
+
+
+
+Step 4: Cost comparison of each approach:
+
+Waterfall: The change would take a lot more time and effort because the project is already quite far into development. Requirements and designs that were already approved would need to be changed, and completed parts of the system would need to be reworked and tested again.
+
+2 Week Increments: The change would be easier to deal with because it could be planned into an upcoming increment. There would still be some rework, but it would cause less disruption to the overall project.
+
+
+
+Task 1 Deliverable:
+Side by Side Comparison:
+
+Waterfall
+- Requirements need to be changed and signed off on again.
+- The already approved design needs to be changed.
+- Already completed parts of the system need to be reworked.
+- The changes need to be tested again.
+- More time and effort is needed because the project is already far into development.
+
+2 Week Increments
+= New requirements can be added to an upcoming increment.
+- The design can be adjusted during the next increment.
+- Changes can be worked into the next development cycle.
+- Changes are tested during the increment.
+- Less disruption as the change can be worked into an upcoming increment.
+
+
+
+Task 2:
+
+Three Weaknesses: 
+1. Requirements aren't writeen down - They're passed verbally and developers sometimes have to guess.
+2. There is no code review - Developers push code straight to the main brand.
+3. There isn't enough testing - The developer who made the feature only tests it themselves once.
+
+
+
+Task 3:
+
+Weakness 1: Requirements aren't written down.
+No process at all: The team has no shared written requirements and relies on the team lead remembering what the client said. Even though lightweight processes use less documentation than heavyweight processes, this doesn't mean having no documentation at all. This can easily lead to developers misunderstanding what the client actually wants.
+
+Weakness 2: There is no code review.
+No process at all: Code is pushed straight to the main branch without another developer reviewing it first. THis means mistakes could easily be missed and end up in the finished system. Even a lightweight process should still have some checks in place to make sure the code works properly.
+
+Weakness 3: There isn't enough testing.
+Agile/Lightweight process would catch this: The developer only tests their own feature once before moving on. Agile still focuses on testing and delivering working software, so testing should be done properly and regularly instead of just checking the feature once.
+
+
+
+Task 4:
+
+1. Requirements aren't written down - MUST
+The team should use a simple shared document to write down the client's requirements so everyone knows exactly what needs to be done. I would make this a MUST because misunderstandings in requirements have already caused features to be delivered late.
+
+2. No code reviews - SHOULD
+Before code is added to the main branch, another developer should briefly review it. I would make this a SHOULD because it could catch mistakes before they make it into the finished system.
+
+3. Not enough testing - COULD
+The team could introduce a simple testing checklist so that each feature is properly tested before moving on. I would make this a could because it would improve the quality of the software without costing much to introduce.
+
+
+Task 2 Deliverable:
+Weakness                                Diagnosis                                          Low Cost Improvement                                                                      Priority
+Requirements aren't written down.       No process at all                                  Use a simple shared document to keep track of client requirements.                        Must
+No code reviews.                        No process at all                                  Have another developer quickly review code before it is pushed to the main branch.        Should
+Not enough testing.                     A disciplined Agile process would catch this.      Use a simple testing checklist to make sure features are properly tested.                 Could
